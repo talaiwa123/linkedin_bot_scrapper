@@ -18,12 +18,12 @@ driver.get(login_path)
 
 # pass the username of the user
 username = driver.find_element_by_id("username")
-username.send_keys("abhi30september@gmail.com")
+username.send_keys("your email")
 
 
 # pass the password for the same user
 pword = driver.find_element_by_id("password")
-pword.send_keys("@linkedin123@")
+pword.send_keys("your password")
 
 
 # click componant for the login into the account
